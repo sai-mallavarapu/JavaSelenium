@@ -1,4 +1,4 @@
-package com;
+package buggyrating;
 
 import java.time.Duration;
 

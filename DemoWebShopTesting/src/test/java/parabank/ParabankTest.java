@@ -1,4 +1,4 @@
-package com;
+package parabank;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -60,9 +60,11 @@ public class ParabankTest {
 	public void afterClass() throws InterruptedException {
 		System.out.println("Closing the browser if we want");
 		if (driver != null) {
-			driver.wait();
+			Thread.sleep(10000); // pause for 2 seconds
+			driver.quit();
 		}
 	}
+
 //	@AfterMethod //Reset to login page
 //	public void AfterMethod() {
 //		System.out.println("Logout");

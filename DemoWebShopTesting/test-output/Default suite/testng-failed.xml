@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.BuggyclassRatingTesting">
+      <class name="com.ParabankTest">
         <methods>
-          <include name="Register"/>
-          <include name="launchBrowser"/>
+          <include name="Login"/>
+          <include name="afterClass"/>
+          <include name="LunchBrowser"/>
         </methods>
-      </class> <!-- com.BuggyclassRatingTesting -->
+      </class> <!-- com.ParabankTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
