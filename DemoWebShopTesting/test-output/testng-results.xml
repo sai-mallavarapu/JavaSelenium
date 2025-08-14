@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-14T08:37:36 IST" name="Default suite" finished-at="2025-08-14T08:38:03 IST" duration-ms="26579">
+  <suite started-at="2025-08-14T17:11:20 IST" name="Suite" finished-at="2025-08-14T17:11:46 IST" duration-ms="26537">
     <groups>
+      <group name="smoke">
+        <method signature="ParabankTest.RegisterNewUser()[pri:1, instance:parabank.ParabankTest@dd05255]" name="RegisterNewUser" class="parabank.ParabankTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-08-14T08:37:36 IST" name="Default test" finished-at="2025-08-14T08:38:03 IST" duration-ms="26579">
-      <class name="com.ParabankTest">
-        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:com.ParabankTest@36ebc363]" started-at="2025-08-14T08:37:36 IST" name="LunchBrowser" finished-at="2025-08-14T08:37:40 IST" duration-ms="4202" status="PASS">
+    <test started-at="2025-08-14T17:11:20 IST" name="Test2" finished-at="2025-08-14T17:11:46 IST" duration-ms="26537">
+      <class name="parabank.ParabankTest">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:parabank.ParabankTest@dd05255]" started-at="2025-08-14T17:11:20 IST" name="LaunchBrowser" finished-at="2025-08-14T17:11:32 IST" duration-ms="12717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://parabank.parasoft.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LunchBrowser -->
-        <test-method signature="RegisterNewUser()[pri:0, instance:com.ParabankTest@36ebc363]" started-at="2025-08-14T08:37:40 IST" name="RegisterNewUser" finished-at="2025-08-14T08:37:49 IST" duration-ms="8305" status="PASS">
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="RegisterNewUser()[pri:1, instance:parabank.ParabankTest@dd05255]" started-at="2025-08-14T17:11:32 IST" name="RegisterNewUser" finished-at="2025-08-14T17:11:40 IST" duration-ms="7201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterNewUser -->
-        <test-method signature="Login()[pri:2, instance:com.ParabankTest@36ebc363]" started-at="2025-08-14T08:37:49 IST" name="Login" finished-at="2025-08-14T08:37:52 IST" duration-ms="3554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.ParabankTest@36ebc363]" started-at="2025-08-14T08:37:52 IST" name="afterClass" finished-at="2025-08-14T08:38:03 IST" duration-ms="10410" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:parabank.ParabankTest@dd05255]" started-at="2025-08-14T17:11:40 IST" name="afterClass" finished-at="2025-08-14T17:11:46 IST" duration-ms="6450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.ParabankTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- parabank.ParabankTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

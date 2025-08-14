@@ -17,7 +17,7 @@ public class BuggyclassRatingTesting {
 	@BeforeClass
 	public void launchBrowser() {
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();               //this is failure Project
 	}
 
 	@Test
