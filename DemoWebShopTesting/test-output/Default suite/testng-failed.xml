@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parabank.ParabankTest">
+      <class name="day24_orangehrm.SearchTermFunctionality">
         <methods>
-          <include name="LaunchBrowser"/>
-          <include name="RegisterNewUser"/>
-          <include name="Login"/>
-          <include name="afterClass"/>
+          <include name="searchTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- parabank.ParabankTest -->
+      </class> <!-- day24_orangehrm.SearchTermFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
