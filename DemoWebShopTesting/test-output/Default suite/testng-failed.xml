@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day24_orangehrm.SearchTermFunctionality">
+      <class name="com.ApplicationTest">
         <methods>
-          <include name="searchTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="LaunchBrowser"/>
+          <include name="launchGoogle"/>
         </methods>
-      </class> <!-- day24_orangehrm.SearchTermFunctionality -->
+      </class> <!-- com.ApplicationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
